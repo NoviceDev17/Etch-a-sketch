@@ -1,0 +1,31 @@
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(60, 3, 107, 0.822);
+}
+#container{
+    position:relative;
+    top:-200px;
+}
+#grid{
+    border:2px solid black;
+    width:500px;
+    height:500px;
+    user-select: none;      /* Disable text/image selection */
+    -webkit-user-drag: none; /* Disable image dragging in Safari */
+}
+#grid div {
+    background-color: white;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+label{
+    color:white;
+}
+button{
+    padding:5px;
+}
+
